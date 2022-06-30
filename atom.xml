@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ag-0419.github.io/10k1.github.io/</id>
+    <title>10k1.thinkDAO</title>
+    <updated>2022-06-30T03:25:03.424Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ag-0419.github.io/10k1.github.io/"/>
+    <link rel="self" href="https://ag-0419.github.io/10k1.github.io/atom.xml"/>
+    <subtitle>CyberThink</subtitle>
+    <logo>https://ag-0419.github.io/10k1.github.io/images/avatar.png</logo>
+    <icon>https://ag-0419.github.io/10k1.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2022, 10k1.thinkDAO</rights>
+    <entry>
+        <title type="html"><![CDATA[web3社交图谱协议分析]]></title>
+        <id>https://ag-0419.github.io/10k1.github.io/post/web3-she-jiao-tu-pu-xie-yi-fen-xi/</id>
+        <link href="https://ag-0419.github.io/10k1.github.io/post/web3-she-jiao-tu-pu-xie-yi-fen-xi/">
+        </link>
+        <updated>2022-06-29T13:58:00.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="一-赛道拆解">一、赛道拆解</h1>
+<p>Web3 社交需要更多 Crypto-native 的创新玩法，而非 Web2 Copycat。社交范式的变革将是一场以「平台为中心」到「用户为中心」的社交文艺复兴，新叙事包括五个关键主题：社交图谱、去中心化身份、隐私保护、可组合性、Token 化，我们仍处于社交范式变革的早期。</p>
+<p>社交赛道从下至上可划分成四个 Layers：数据层，协议层，隐私层和应用层。其中协议层最为核心。协议层长期看好能持续吸引用户产生新的关系、身份、荣誉的社交协议和基础数据网络。应用层看好能形成可持续 tokenomics 的社交应用。此外，灵魂绑定 Token （SBT）形成的社交关系或许可以兼顾可组合性与弱金融属性，将链上社交 Token 的核心价值回归到关系证明本身，成为真正有效的社交凭证。</p>
+<blockquote>
+<p>Source：<a href="https://www.theblockbeats.info/news/30929?search=1">打破「围墙花园」，Web3.0重塑社交范式</a></p>
+</blockquote>
+<h1 id="二-分析逻辑">二、分析逻辑</h1>
+<p>集中在协议层，最需要关注的赛道是社交图谱如何构建、DID共识机制。</p>
+<h2 id="社交图谱">社交图谱</h2>
+<blockquote>
+<p>社交图谱：社交平台上的活动、内容创作、人际关系等信息的合集，平台核心</p>
+</blockquote>
+<ul>
+<li>
+<p>web2与web3社交的区别/理想中web3要解决的问题——基于社交图谱的数据确权</p>
+<ul>
+<li>社交图谱可移植性——用户方便：能否一次创作自动分发在各个内容平台（有点类似目前的部分播客，小宇宙和苹果的post）facebook的东西不需要在linkin上重新发一次</li>
+<li>社交图谱确权——用户安全：web2是用户社交图谱委托平台代理，平台强势（可以直接用用户的数据做任何事情），web3则会社交图谱物归原主</li>
+<li>社交图谱变现——用户权益：用户可以自己决定内容货币化/商品化/NFT什么的，获得收益</li>
+</ul>
+</li>
+<li>
+<p>web3开发人员针对数据图谱：通用数据层，轻松集成</p>
+</li>
+</ul>
+<h2 id="隐私计算">隐私计算</h2>
+<p>在社交应用层，问题解决方式是：多账号与信息授权。多账号，即不同的钱包可以有不同的圈子和身份。但如果一个 DID 可以对应多个钱包地址，那更稳妥的解决方案是让用户在社交图谱、DID 协议中选择哪部分数据信息可以被公开读取。</p>
+<p>在交互层，引入隐私计算协议，在保障数据隐私安全的基础上，让数据以「可用不可见」的方式进行安全流通。</p>
+<p>据存储层，区块链数据不可变与公开的本质与隐私相矛盾，隐私问题变得更加复杂。由于数据一经上链就无法更改，而将账户和交易全部加密又非常昂贵和耗时。Mid-way solutio 可能是事前让用户选择哪部分数据需要隐私保护，不想公开数据直接进行链下存放。</p>
+<blockquote>
+<p>Foresight Ventures: 读懂 Web3 的另一面「隐私」在这里不过多展开论述。</p>
+</blockquote>
+<h1 id="三-竞品对标">三、竞品对标</h1>
+<table>
+<thead>
+<tr>
+<th>Project</th>
+<th>时间</th>
+<th>链</th>
+<th>社交图谱核心</th>
+<th>技术实现</th>
+<th>开源</th>
+<th>Dapp接入方式</th>
+<th>token</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CyberConnect</td>
+<td>2021</td>
+<td>Solana、ETH</td>
+<td>关注、IM</td>
+<td>Arweave、Ceramic、IPFS</td>
+<td>部分开源</td>
+<td>API</td>
+<td>暂无</td>
+</tr>
+<tr>
+<td>LENS Protocol</td>
+<td>2022</td>
+<td>polygon</td>
+<td>关注、内容</td>
+<td>profile NFT、Follow NFT；post、mirror、comment、collect</td>
+<td>完全开源</td>
+<td>无需许可</td>
+<td>暂无</td>
+</tr>
+<tr>
+<td>Mem  Protocol</td>
+<td>2022</td>
+<td>EVM虚拟机兼容</td>
+<td>问答、朋友圈（延期，未知）</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5 Degrees</td>
+<td>2022</td>
+<td>ETH</td>
+<td>关注</td>
+<td>profile NFT、Follow NFT</td>
+<td>完全开源</td>
+<td>无需许可</td>
+<td>暂无</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><a href="https://youtu.be/i-ShR0S7K2g">All For Research: Reclaim ownership of your social graph in web3</a><br>
+<a href="https://youtu.be/AGRCfTqZAWo">5degrees-TP钱包团队开发的全新socialfi平台</a></p>
+</blockquote>
+]]></content>
+    </entry>
+</feed>
